@@ -106,7 +106,7 @@ export const ContactPage: React.FC<ContactPageProps> = ({
           level: submittedData.level,
           format:
             submittedData.format === 'in_person'
-              ? 'Présentiel à Abidjan'
+              ? 'Présentiel à Bouaké'
               : submittedData.format === 'online'
               ? 'En ligne / Distanciel'
               : 'Hybride',

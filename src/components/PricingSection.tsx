@@ -138,8 +138,8 @@ export const PricingSection: React.FC<PricingSectionProps> = ({
                     <Check className="w-4 h-4 text-emerald-600 shrink-0" />
                     <span>
                       {lang === 'fr'
-                        ? 'Cours en présentiel à Abidjan ou en ligne via classe virtuelle'
-                        : 'In-person in Abidjan or live interactive online classes'}
+                        ? 'Cours en présentiel à Bouaké ou en ligne via classe virtuelle'
+                        : 'In-person in Bouaké or live interactive online classes'}
                     </span>
                   </div>
                   <div className="flex items-center gap-2.5">

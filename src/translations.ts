@@ -4,7 +4,7 @@ export const translations = {
       name: 'Benson English Consulting Group',
       shortName: 'BECG',
       slogan: 'Parlez anglais avec aisance, confiance et ambition.',
-      location: 'Abidjan, Côte d’Ivoire',
+      location: 'Bouaké, Côte d’Ivoire',
       phone: '+225 07 89 82 35 31',
       phoneFormatted: '+225 07 89 82 35 31',
       email: 'contact@bensonenglish.ci',
@@ -36,7 +36,7 @@ export const translations = {
         '3 Mois de cursus intensif',
         'Cours en présentiel & en ligne',
         'Horaires adaptés : Jour & Soir',
-        'Abidjan, Côte d’Ivoire',
+        'Bouaké, Côte d’Ivoire',
       ],
     },
     benefits: {
@@ -141,7 +141,7 @@ export const translations = {
       title: 'À Propos de Benson English Consulting Group',
       headline: 'Former, accompagner et donner confiance.',
       intro:
-        'Benson English Consulting Group (BECG) est un cabinet spécialisé dans la formation linguistique en anglais, la communication professionnelle et les prestations linguistiques de haut niveau à Abidjan, Côte d’Ivoire.',
+        'Benson English Consulting Group (BECG) est un cabinet spécialisé dans la formation linguistique en anglais, la communication professionnelle et les prestations linguistiques de haut niveau à Bouaké, Côte d’Ivoire.',
       missionTitle: 'Notre Mission',
       missionDesc:
         'Permettre aux apprenants, professionnels, cadres et étudiants de surmonter la barrière de la langue anglaise afin de saisir pleinement les opportunités académiques, professionnelles et internationales.',
@@ -211,7 +211,7 @@ export const translations = {
         },
         {
           title: 'Flexibilité des horaires',
-          desc: 'Cours du jour, cours du soir ou ateliers le week-end, en présentiel à Abidjan ou en classe virtuelle interactive.',
+          desc: 'Cours du jour, cours du soir ou ateliers le week-end, en présentiel à Bouaké ou en classe virtuelle interactive.',
         },
         {
           title: 'Services linguistiques intégrés',
@@ -229,11 +229,11 @@ export const translations = {
       items: [
         {
           q: 'Les cours conviennent-ils aux professionnels en activité ?',
-          a: 'Absolument. Nous proposons des créneaux spécialement aménagés en cours du soir (18h30 - 20h30) et le samedi matin, en présentiel à Abidjan ou en classe virtuelle en direct, afin de concilier facilement votre formation avec vos responsabilités professionnelles.',
+          a: 'Absolument. Nous proposons des créneaux spécialement aménagés en cours du soir (18h30 - 20h30) et le samedi matin, en présentiel à Bouaké ou en classe virtuelle en direct, afin de concilier facilement votre formation avec vos responsabilités professionnelles.',
         },
         {
           q: 'Quelle est la différence entre les cours en présentiel et en ligne ?',
-          a: 'Les cours en présentiel se déroulent dans notre centre de formation à Abidjan en immersion directe. Les cours en ligne sont animés en temps réel par nos formateurs sur visioconférence interactive avec les mêmes exigences pédagogiques et ateliers oraux.',
+          a: 'Les cours en présentiel se déroulent dans notre centre de formation à Bouaké en immersion directe. Les cours en ligne sont animés en temps réel par nos formateurs sur visioconférence interactive avec les mêmes exigences pédagogiques et ateliers oraux.',
         },
         {
           q: 'Faut-il déjà avoir des notions pour s’inscrire au niveau Débutant ?',
@@ -323,7 +323,7 @@ export const translations = {
       infoTitle: 'Coordonnées Officielles',
       phoneLabel: 'Téléphone & WhatsApp',
       locationLabel: 'Localisation',
-      locationDesc: 'Abidjan, Côte d’Ivoire (centre d’orientation & cours)',
+      locationDesc: 'Bouaké, Côte d’Ivoire (centre d’orientation & cours)',
       emailLabel: 'Adresse Email',
       hoursLabel: 'Horaires d’accueil',
       whatsappBtn: 'Contacter directement sur WhatsApp',
@@ -338,7 +338,7 @@ export const translations = {
       level: 'Votre niveau actuel estimé',
       levelPlaceholder: 'Sélectionnez votre niveau',
       format: 'Format d’apprentissage souhaité',
-      inPerson: 'En présentiel à Abidjan',
+      inPerson: 'En présentiel à Bouaké',
       online: 'En ligne / Distanciel',
       hybrid: 'Hybride (Mixte)',
       contactMethod: 'Moyen de contact privilégié',
@@ -358,7 +358,7 @@ export const translations = {
       title: 'Politique de Confidentialité',
       subtitle: 'Protection des données et engagement de confidentialité de BECG.',
       lastUpdated: 'Dernière mise à jour : Novembre 2026',
-      content: `Benson English Consulting Group (BECG), basé à Abidjan (Côte d'Ivoire), accorde une importance primordiale à la protection de la vie privée de ses apprenants, prospects et partenaires.
+      content: `Benson English Consulting Group (BECG), basé à Bouaké (Côte d'Ivoire), accorde une importance primordiale à la protection de la vie privée de ses apprenants, prospects et partenaires.
 
 1. Collecte des données personnelles
 Les informations recueillies via nos formulaires de contact et d'orientation (nom, prénom, numéro de téléphone, adresse email, niveau linguistique estimé) sont exclusivement destinées à l'évaluation de vos besoins pédagogiques, à l'organisation de vos sessions de formation et au suivi administratif de votre dossier.
@@ -389,7 +389,7 @@ Conformément aux réglementations applicables relatives à la protection des do
       name: 'Benson English Consulting Group',
       shortName: 'BECG',
       slogan: 'Speak English with Confidence. Unlock Your Potential.',
-      location: 'Abidjan, Côte d’Ivoire',
+      location: 'Bouaké, Côte d’Ivoire',
       phone: '+225 07 89 82 35 31',
       phoneFormatted: '+225 07 89 82 35 31',
       email: 'contact@bensonenglish.ci',
@@ -421,7 +421,7 @@ Conformément aux réglementations applicables relatives à la protection des do
         '3-Month intensive cohorts',
         'In-person & Online learning',
         'Flexible schedules: Day & Evening',
-        'Abidjan, Côte d’Ivoire',
+        'Bouaké, Côte d’Ivoire',
       ],
     },
     benefits: {
@@ -526,7 +526,7 @@ Conformément aux réglementations applicables relatives à la protection des do
       title: 'About Benson English Consulting Group',
       headline: 'Educate, guide, and build confidence.',
       intro:
-        'Benson English Consulting Group (BECG) is a premier language training firm, corporate communication consultancy, and high-level language services provider based in Abidjan, Côte d’Ivoire.',
+        'Benson English Consulting Group (BECG) is a premier language training firm, corporate communication consultancy, and high-level language services provider based in Bouaké, Côte d’Ivoire.',
       missionTitle: 'Our Mission',
       missionDesc:
         'To empower learners, working professionals, corporate executives, and students to transcend the English language barrier and seize rewarding academic, career, and international opportunities.',
@@ -596,7 +596,7 @@ Conformément aux réglementations applicables relatives à la protection des do
         },
         {
           title: 'Flexible Class Schedules',
-          desc: 'Day sessions, evening classes, or weekend workshops, available in-person in Abidjan or via live interactive video.',
+          desc: 'Day sessions, evening classes, or weekend workshops, available in-person in Bouaké or via live interactive video.',
         },
         {
           title: 'Integrated Language Services',
@@ -614,11 +614,11 @@ Conformément aux réglementations applicables relatives à la protection des do
       items: [
         {
           q: 'Are the training schedules suitable for working professionals?',
-          a: 'Absolutely. We offer tailored evening sessions (6:30 PM - 8:30 PM) and Saturday morning workshops, in-person in Abidjan or via live interactive video conferencing, specifically planned around corporate work schedules.',
+          a: 'Absolutely. We offer tailored evening sessions (6:30 PM - 8:30 PM) and Saturday morning workshops, in-person in Bouaké or via live interactive video conferencing, specifically planned around corporate work schedules.',
         },
         {
           q: 'What is the difference between in-person and online courses?',
-          a: 'In-person classes take place at our Abidjan training center in full immersion. Online classes are conducted live by our instructors in an interactive digital classroom with the exact same oral standards and practical role-play workshops.',
+          a: 'In-person classes take place at our Bouaké training center in full immersion. Online classes are conducted live by our instructors in an interactive digital classroom with the exact same oral standards and practical role-play workshops.',
         },
         {
           q: 'Do I need prior English knowledge to join the Beginners track?',
@@ -708,7 +708,7 @@ Conformément aux réglementations applicables relatives à la protection des do
       infoTitle: 'Official Coordinates',
       phoneLabel: 'Phone & WhatsApp',
       locationLabel: 'Location',
-      locationDesc: 'Abidjan, Côte d’Ivoire (Training Center & Online)',
+      locationDesc: 'Bouaké, Côte d’Ivoire (Training Center & Online)',
       emailLabel: 'Email Address',
       hoursLabel: 'Office Hours',
       whatsappBtn: 'Chat Directly on WhatsApp',
@@ -723,7 +723,7 @@ Conformément aux réglementations applicables relatives à la protection des do
       level: 'Estimated Current Level',
       levelPlaceholder: 'Select your current level',
       format: 'Preferred Learning Format',
-      inPerson: 'In-person in Abidjan',
+      inPerson: 'In-person in Bouaké',
       online: 'Live Online Cohort',
       hybrid: 'Hybrid Format',
       contactMethod: 'Preferred Contact Channel',
@@ -743,7 +743,7 @@ Conformément aux réglementations applicables relatives à la protection des do
       title: 'Privacy Policy',
       subtitle: 'Data protection and confidentiality commitment at BECG.',
       lastUpdated: 'Last updated: November 2026',
-      content: `Benson English Consulting Group (BECG), located in Abidjan (Côte d'Ivoire), places top priority on safeguarding the privacy of its learners, prospects, and corporate partners.
+      content: `Benson English Consulting Group (BECG), located in Bouaké (Côte d'Ivoire), places top priority on safeguarding the privacy of its learners, prospects, and corporate partners.
 
 1. Collection of Personal Data
 Information gathered through our orientation and inquiry forms (name, phone number, email address, estimated proficiency level) is solely collected to evaluate pedagogical needs, schedule training cohorts, and manage administrative records.

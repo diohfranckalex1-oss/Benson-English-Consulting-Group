@@ -47,8 +47,8 @@ export const Footer: React.FC<FooterProps> = ({
 
             <p className="text-sm text-slate-400 leading-relaxed max-w-sm">
               {lang === 'fr'
-                ? "Cabinet de référence pour l'apprentissage pratique de l'anglais, le coaching d'expression orale et les services de traduction & interprétation à Abidjan."
-                : 'Premier corporate language consultancy for practical spoken English, fluency coaching, and certified translation & conference interpretation in Abidjan.'}
+                ? "Cabinet de référence pour l'apprentissage pratique de l'anglais, le coaching d'expression orale et les services de traduction & interprétation à Bouaké."
+                : 'Premier corporate language consultancy for practical spoken English, fluency coaching, and certified translation & conference interpretation in Bouaké.'}
             </p>
 
             <p className="text-xs italic text-slate-400">
@@ -174,7 +174,7 @@ export const Footer: React.FC<FooterProps> = ({
 
               <div className="flex items-start gap-2">
                 <MapPin className="w-4 h-4 text-emerald-400 shrink-0 mt-0.5" />
-                <span>Abidjan, Côte d'Ivoire</span>
+                <span>Bouaké, Côte d'Ivoire</span>
               </div>
             </div>
 

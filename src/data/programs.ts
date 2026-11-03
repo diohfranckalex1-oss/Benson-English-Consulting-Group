@@ -14,8 +14,8 @@ export const programsData: Program[] = [
     levelEn: 'A0 - A1 (Complete Beginner & False Beginner)',
     durationFr: '3 Mois (Sessions intensives ou régulières)',
     durationEn: '3 Months (Intensive or Regular cohorts)',
-    formatFr: 'En présentiel à Abidjan & En ligne',
-    formatEn: 'In-person in Abidjan & Live Online',
+    formatFr: 'En présentiel à Bouaké & En ligne',
+    formatEn: 'In-person in Bouaké & Live Online',
     targetFr: 'Étudiants, jeunes diplômés, adultes et professionnels souhaitant acquérir les bases sans blocage.',
     targetEn: 'Students, graduates, adults, and professionals seeking strong basics without hesitation.',
     modulesFr: [
@@ -231,8 +231,8 @@ export const programsData: Program[] = [
     levelEn: 'Corporate & Event Service',
     durationFr: 'À la demi-journée, journée ou mission plurijournalière',
     durationEn: 'Half-day, full-day, or multi-day deployments',
-    formatFr: 'Sur site (Abidjan & région) ou en visioconférence',
-    formatEn: 'On-site (Abidjan & region) or Remote webinars',
+    formatFr: 'Sur site (Bouaké & région) ou en visioconférence',
+    formatEn: 'On-site (Bouaké & region) or Remote webinars',
     targetFr: 'Organisateurs d’événements, ministères, agences internationales, associations professionnelles, multinationales.',
     targetEn: 'Event organizers, ministries, multilateral agencies, trade associations, and multinational corporations.',
     modulesFr: [

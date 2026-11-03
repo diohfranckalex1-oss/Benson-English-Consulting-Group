@@ -138,7 +138,7 @@ export const TeamPage: React.FC<TeamPageProps> = ({ lang, onNavigate }) => {
                   </p>
                 </div>
                 <span className="text-xs text-slate-300">
-                  Abidjan, Côte d'Ivoire
+                  Bouaké, Côte d'Ivoire
                 </span>
               </div>
             </div>

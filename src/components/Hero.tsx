@@ -57,7 +57,7 @@ export const Hero: React.FC<HeroProps> = ({ lang, onNavigate }) => {
 
               <button
                 onClick={() => onNavigate('contact')}
-                className="inline-flex items-center justify-center gap-2 px-6 py-3.5 text-base font-semibold text-[#10264F] bg-white hover:bg-slate-50 border border-slate-300 rounded-xl shadow-xs transition-all cursor-pointer whitespace-nowrap active:scale-[0.98]"
+                className="inline-flex items-center justify-center gap-2 px-5 py-3.5 text-sm font-semibold text-slate-700 bg-white hover:bg-slate-50 border border-slate-200 rounded-xl shadow-xs transition-all cursor-pointer whitespace-nowrap active:scale-[0.98]"
               >
                 <span>{t.hero.secondaryCta}</span>
               </button>
@@ -92,12 +92,12 @@ export const Hero: React.FC<HeroProps> = ({ lang, onNavigate }) => {
 
               <div className="relative overflow-hidden rounded-2xl bg-white shadow-xl ring-1 ring-slate-900/10">
                 {/* Authentic Founder Portrait */}
-                <div className="aspect-[4/5] w-full overflow-hidden bg-slate-900 relative">
+                <div className="aspect-[4/5] w-full overflow-hidden bg-slate-900 relative group">
                   <img
                     src="/assets/aistudio/20261102_121018_88b47b49.jpg"
                     alt="Fondateur de Benson English Consulting Group"
                     referrerPolicy="no-referrer"
-                    className="w-full h-full object-cover object-top hover:scale-[1.02] transition-transform duration-500"
+                    className="w-full h-full object-cover object-top group-hover:scale-[1.02] transition-transform duration-500"
                   />
 
                   {/* Gentle gradient scrim at base for readable contrast */}
@@ -168,7 +168,7 @@ export const Hero: React.FC<HeroProps> = ({ lang, onNavigate }) => {
             </div>
             <div>
               <p className="text-xs text-slate-500 font-medium">Localisation</p>
-              <p className="text-sm font-bold text-[#10264F]">Abidjan, Côte d'Ivoire</p>
+              <p className="text-sm font-bold text-[#10264F]">Bouaké, Côte d'Ivoire</p>
             </div>
           </div>
         </div>

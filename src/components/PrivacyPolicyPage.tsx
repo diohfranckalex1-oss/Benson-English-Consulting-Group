@@ -44,7 +44,7 @@ export const PrivacyPolicyPage: React.FC<PrivacyPolicyPageProps> = ({
 
           <div className="pt-6 border-t border-slate-100 text-xs text-slate-500">
             <p>
-              Benson English Consulting Group (BECG) · Abidjan, Côte d'Ivoire · Contact : +225 07 89 82 35 31
+              Benson English Consulting Group (BECG) · Bouaké, Côte d'Ivoire · Contact : +225 07 89 82 35 31
             </p>
           </div>
         </div>

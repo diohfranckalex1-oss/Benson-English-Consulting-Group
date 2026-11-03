@@ -1,6 +1,6 @@
 {
   "name": "Benson English Consulting Group",
-  "description": "Site vitrine et plateforme d'orientation pour Benson English Consulting Group (BECG), cabinet de formation en anglais et services linguistiques basé à Abidjan, Côte d'Ivoire.",
+  "description": "Site vitrine et plateforme d'orientation pour Benson English Consulting Group (BECG), cabinet de formation en anglais et services linguistiques basé à Bouaké, Côte d'Ivoire.",
   "requestFramePermissions": [],
   "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }

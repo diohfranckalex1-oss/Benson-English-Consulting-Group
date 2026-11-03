@@ -1,7 +1,8 @@
-import React from 'react';
-import { Award, CheckCircle2, PlusCircle, Sparkles } from 'lucide-react';
+import React, { useState } from 'react';
+import { Award, CheckCircle2, PlusCircle, Sparkles, Play } from 'lucide-react';
 import { Language, Page } from '../types';
 import { translations } from '../translations';
+import { VideoModal } from './VideoModal';
 
 interface SocialProofSectionProps {
   lang: Language;
@@ -9,6 +10,7 @@ interface SocialProofSectionProps {
 }
 
 export const SocialProofSection: React.FC<SocialProofSectionProps> = ({ lang, onNavigate }) => {
+  const [videoOpen, setVideoOpen] = useState(false);
   const t = translations[lang].socialProof;
 
   return (
@@ -114,9 +116,33 @@ export const SocialProofSection: React.FC<SocialProofSectionProps> = ({ lang, on
                 <span>{t.placeholderCta}</span>
               </button>
             </div>
+
+            {/* Video Spotlight Card */}
+            <div className="p-4 rounded-xl bg-gradient-to-r from-[#10264F] to-[#173B8F] text-white flex items-center justify-between gap-4 shadow-sm">
+              <div className="space-y-0.5">
+                <span className="text-[11px] font-bold text-red-300 uppercase tracking-wider flex items-center gap-1.5">
+                  <span className="w-2 h-2 rounded-full bg-red-400 animate-pulse" />
+                  {lang === 'fr' ? 'Spot Vidéo Officiel' : 'Official Promo Reel'}
+                </span>
+                <p className="text-sm font-semibold text-white">
+                  {lang === 'fr' ? 'Découvrez BECG en 22 secondes' : 'Experience BECG in 22 seconds'}
+                </p>
+              </div>
+              <button
+                type="button"
+                onClick={() => setVideoOpen(true)}
+                className="inline-flex items-center gap-1.5 px-3.5 py-2 rounded-lg bg-white text-[#10264F] hover:bg-slate-100 text-xs font-bold shadow-xs transition-colors shrink-0 cursor-pointer"
+              >
+                <Play className="w-3.5 h-3.5 fill-current text-[#D71935]" />
+                <span>{lang === 'fr' ? 'Lancer le spot' : 'Play video'}</span>
+              </button>
+            </div>
           </div>
         </div>
       </div>
+
+      {/* Video Lightbox Modal */}
+      <VideoModal isOpen={videoOpen} onClose={() => setVideoOpen(false)} lang={lang} />
     </section>
   );
 };
